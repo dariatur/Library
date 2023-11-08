@@ -1,0 +1,437 @@
+@media (max-width:1439px){
+    body{
+        width: auto;
+    }
+
+    .wrapper{
+        width: auto;
+    }
+
+    .about, .favorites, .coffeeshop, .our_contacts, .digital_library_cards{
+        height: auto;
+    }
+
+    h1{
+        margin-right: auto;
+        font-size: 1.875rem;
+    }
+
+    .text_wrapper{
+        margin-right: auto;
+    }
+
+    .images {
+        width: 95%;
+        margin: 20px 20px 40px 20px;
+    }
+
+    .about_image{
+        width: 32%;
+        height: 32%;
+    }
+
+    .pick_season {
+        width: 100%;
+    }
+
+    .books_winter, .books_spring, .books_summer, .books_autumn{
+        width: 100%;
+    }
+
+    .staff_picks__wrapper{
+        width:auto;
+    }
+    .coffeeshop_text {
+        display:none;
+    }
+
+    .coffeeshop_text_adaptive{
+        display: block;
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px; /* 200% */
+        letter-spacing: 2px;
+        margin: 40px 15px;
+    }
+    
+    .menu{
+        width: 95%;
+    }
+
+    .contacts_wrapper {
+        width: auto;
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .digital_cards_wrapper {
+        width: 95%;
+        gap: 30px;
+    }
+
+    .get_card_text {
+        width: auto;
+    }
+
+    .footer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer_wrapper{
+        width: 1440px;
+    }
+
+    .top_part{
+        width: 95%;
+    }
+
+    .top_text{
+        margin: 20px 0 18px;
+    }
+
+    .hours{
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .second_part{
+        margin-top: 10px;
+    }
+
+    .footer_line{
+        width: 95%;
+        margin: 0;
+        border: none;
+    }
+
+    .bottom_part{
+        width: 95%;
+    }
+
+    .bottom_text{
+        width: auto;
+    }
+}
+
+@media (max-width:1259px){
+    .books_winter, .books_spring, .books_summer, .books_autumn{
+        width: auto;
+        flex-direction: column;
+    }
+
+    .pick_season{
+        width: 100%;
+        justify-content: center;
+        background-color: #fff;
+        position: sticky;
+        top: 0px;
+        z-index: 999;
+    }
+
+    .get_card_text_after_login{
+        width: auto;
+    }
+}
+
+@media (max-width: 1024px){
+    body{
+        width: auto;
+    }
+
+    .header{
+        position: relative;
+        z-index: 999;
+    }
+
+    .wrapper{
+        width: auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .about, .favorites, .coffeeshop, .our_contacts, .digital_library_cards{
+        height: auto;
+    }
+
+    h1{
+        margin-right: auto;
+        font-size: 1.875rem;
+    }
+
+    .user_icon{
+        z-index: 2;
+    }
+
+    .header__navigation{
+        position: absolute;
+        right: 0px;
+        top: -570px;
+        background-color:#0C0C0E;
+        width: 332px;
+        height: 570px;
+        transition: 0.6s;
+    }
+
+    .navigation__list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        gap: 30px;
+    }
+
+    .nav_button{
+        display: flex;
+        flex-direction: column;
+        gap:8px;
+        background-color: transparent;
+        border: none;
+        width: 45px;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+        margin-left: 20px;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+    .nav_button span{
+        width: 45px;
+        height: 2px;
+        background-color: #fff;
+        z-index: 2;
+        transition: transform .5s, opacity .5s;
+    }
+
+    .header.open .header__navigation{
+        transform: translateY(100%);
+    }
+
+    .header.open .nav_button span:nth-child(1){
+        transform: translateY(10px) rotate(-45deg);;
+    }
+
+    .header.open .nav_button span:nth-child(2){
+        opacity: 0;
+    }
+
+    .header.open .nav_button span:nth-child(3){
+        transform: translateY(-10px) rotate(45deg);
+    }
+
+    .drop_menu{
+        right: 95px;
+    }
+
+    .text_wrapper{
+        width: auto;
+        margin: 0px;
+        margin-top: 55px;
+    }
+
+    .welcome{
+        background:linear-gradient(180deg, #0C0C0E 0%, #0C0C0E 0.01%, 
+        rgba(18, 18, 21, 0.10) 50%), url(./images/Welcome2.png), lightgray 50% / cover no-repeat;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        
+    }
+
+    p{
+        margin: 40px 40px 20px;
+    }
+
+    .adaptive_slider{
+        display: flex;
+        align-items: center;
+    }
+
+    .images{
+        width: 450px;
+        height: 560px;
+        align-items: center;
+        margin-top: 0px;
+        justify-content: center;
+    }
+
+    .about_image{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+
+    .about_buttons{
+        padding-bottom: 35px;
+    }
+
+    .adaptive_button{
+        display:inline-flex;
+    }
+
+    .button_carret{
+        display: block;
+        border: none;
+        background: transparent;
+        width: 24px;
+        height: 67px;
+        cursor: pointer;
+    }
+
+    .left_button{
+        margin-right: 42px;
+    }
+    
+    .right_button{
+        margin-left: 32px;
+    }
+
+    .button_carret.deactivated{
+        opacity: 0.3;
+        pointer-events: none;
+    }
+
+    .favorites_text{
+        margin-left: 20px;
+    }
+
+    .seasons{
+        margin-left: 15px;
+    }
+
+    .books_winter,.books_spring, .books_summer, .books_autumn{
+        width: auto;
+        flex-direction: column;
+    }
+
+    .staff_picks__wrapper{
+        width: auto;
+    }
+
+    .book_description{
+        margin-bottom: 15px;
+    }
+
+    .coffeeshop_text{
+        display: none;
+    }
+
+    .menu{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .drinks{
+        margin-right: 290px;
+    }
+
+    .desserts{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .contacts_wrapper{
+        width: auto;
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .contacts{
+        margin-left: -15px;
+    }
+    
+    .digital_cards_wrapper{
+        width: auto;
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+    }
+
+    .find_your_card_form {
+        margin-bottom: 0;
+    }
+
+    .get_card{
+        align-items: center;
+    }
+
+    .get_card_title,.get_card_title_after_login{
+        margin-top: 21px;
+        margin-bottom: 40px;
+    }
+
+    .get_card_text,.get_card_text_after_login{
+        width: auto;
+        text-align: center;
+        margin: auto 84px 40px;
+    }
+
+    .get_card_buttons{
+        margin-right: 20px;
+        margin-bottom: 40px;
+    }
+
+    .footer_wrapper{
+        width: 1440px;
+    }    
+}
+
+
+@media (max-width: 740px){
+
+    .header_wrapper{
+        height: 90px;
+    }
+
+    h1{
+        font-size: 1.875rem;
+        width: auto;
+        height: 3.125rem;
+    }
+
+    .pick_season{
+        width: 100%;
+    }
+
+    .seasons{
+        width: auto;
+    }
+
+    .season_button{
+        margin-right: 30px;
+    }
+
+    .season_input{
+        margin-right: 10px;
+    }
+
+    .menu{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .drinks{
+        margin: 0;
+    }
+
+    .contacts_wrapper{
+        align-items: center;
+        gap: 50px;
+    }
+
+    .contacts{
+        margin-left: -55px;
+    }
+
+    .map_image{
+        width: 90%;
+        height: 90%;
+    }
+
+}
